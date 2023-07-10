@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkslategray;
+    color: azure;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+.main-body {
+    margin: auto;
+    width: 75%;
+    outline: auto;
+    outline-style: dashed;
+    outline-color: black;
+    padding: 5%;
+}
+
+.recipe-img {
+    width: 50%;
+    height: auto;
+}
+
+.main-body h2 {
+    text-decoration: underline;
+}
+
+a {
+    background-color: white;
+    color: darkblue;
+}
