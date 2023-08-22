@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkslategray;
@@ -10,11 +14,10 @@ li {
 }
 
 .main-body {
-    margin: auto;
-    width: 75%;
+    margin: 10vh auto;
+    width: 75vw;
     outline: auto;
-    outline-style: dashed;
-    outline-color: black;
+    outline: groove white;
     padding: 5%;
 }
 
@@ -28,6 +31,20 @@ li {
 }
 
 a {
-    background-color: white;
-    color: darkblue;
+    display: inline-block;
+    width: 50%;
+    background-color: azure;
+    text-decoration: none;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    text-align: center;
+}
+
+.recipe-list {
+    display: inline-block;
+    margin: 0 auto;
+    list-style-type: none;
 }
