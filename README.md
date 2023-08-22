@@ -1,1 +1,1 @@
-This is a practice HTML-only site created for the Recipe page project from The Odin Project's Foundations course. 
+This is a practice HTML and CSS site created for the Recipe page project from The Odin Project's Foundations course. 
