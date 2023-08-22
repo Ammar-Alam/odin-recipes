@@ -31,8 +31,7 @@ li {
 }
 
 a {
-    display: inline-block;
-    width: 50%;
+    display: block;
     background-color: azure;
     text-decoration: none;
     margin: 5px auto;
@@ -44,7 +43,6 @@ a {
 }
 
 .recipe-list {
-    display: inline-block;
-    margin: 0 auto;
     list-style-type: none;
+    border: 100px;
 }
