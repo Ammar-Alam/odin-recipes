@@ -46,3 +46,12 @@ a {
     list-style-type: none;
     border: 100px;
 }
+
+.recipe-ingredients ul{
+    display: inline-block;
+}
+
+.recipe-steps ol{
+    display: inline-block;
+    margin-left: 5vw;
+}
